@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Be Safe Online</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/passwdquiz.js" defer></script>
+
+  </head>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="passwd.html">Password Safety</a></li>
+    <li><a href="malware.html">Malware</a></li>
+    <li><a href="about.html">About</a></li></ul>
+  
+  <body>
+
+    <h1>Is Your Password Strong or Weak?</h1>
+
+    <h3>Take this quiz to figure out if your password is strong or weak.</h3>
+    <h1>--------------------------------------------------</h1>
+	</header>
+
+	<main>
+
+		<h2>Is your password 8-12 characters long?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/comp.jpg">
+        <br>
+        <button class="button button2" onclick="this.style.background = 'darkgray'" id="q1a1">Yes</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="passwdquiz/cyber.webp">
+        <br>
+        <button class="button button2" onclick="this.style.background = 'darkgray'" id="q1a2">No</button>
+      </div>
+
+    </div> 
+    
+    <h2>Does your password have a mix of upper case letters and lower case letters?</h2>
+    <div class="question">
+
+            <div class="answer-choice">
+        <img src="passwdquiz/lock.jpg">
+        <br>
+        <button class="button button2" onclick="this.style.background = 'darkgray'" id="q2a1">Yes</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="passwdquiz/cool.jpg">
+        <br>
+        <button class="button button2" onclick="this.style.background = 'darkgray'" id="q2a2">No</button>
+      </div>
+
+    </div> 
+    
+    <h2>Does your password have symbols and numbers mixed in?</h2>
+    <div class="question">
+
+            <div class="answer-choice">
+        <img src="assets/passwd.jpg">
+        <br>
+        <button class="button button2" onclick="this.style.background = 'darkgray'" id="q3a1">Yes</button>
+      </div>
+
+
+      <div class="answer-choice">
+        <img src="passwdquiz/cool2.jpg">
+        <br>
+        <button class="button button2" onclick="this.style.background = 'darkgray'" id="q3a2">No</button>
+      </div>
+
+    </div> 
+    
+    <h2 id="result">Your password is...</h2>
+    <button class="button button2" id="restart">Restart</button>
+    
+  </body>
+</html>
