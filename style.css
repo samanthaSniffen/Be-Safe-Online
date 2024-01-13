@@ -1,0 +1,148 @@
+/* STYLE SECTIONING TAGS */
+
+body {
+  background-color: #6A7FDB;
+}
+
+/* STYLE TEXT */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+a {
+  color: #93cbe5;
+}
+
+/* STYLE IMAGES */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #93cbe5;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: #6A7FDB;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: white;
+  background-color: #6A7FDB;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+/* STYLE BUTTONS */
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+
+.question {
+  display: flex;
+	justify-content: center;
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+
+.answer-choice img {
+  height: 10em;
+}
+
+.answer-choice img {
+  height: 10em;
+	width: 15em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button {
+  background-color: #93cbe5;
+  border: none;
+  color: #6A7FDB;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+/* ADD MORE! */
